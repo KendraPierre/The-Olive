@@ -223,6 +223,10 @@ tbody tr:nth-child(odd) th {
   background-color: #fff;
 }
 
+/*Social Links*/
+.product-social-links {
+    line-height: 10px;
+}
 
 /*
  * Custom type
