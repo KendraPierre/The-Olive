@@ -114,7 +114,7 @@ Antes de poder utilizar pip desde la línea de comandos para instalar Pygments, 
 
 ## Instalación de la parte Python de Pygments ##
 
-Abre una nueva ventana de la línea de comandos y ejecuta el siguiente comando:
+Abre una nueva ventana de la línea de comandos y ejecuta el siguiente commando:
     
     pip install Pygments
 
@@ -150,7 +150,7 @@ Recientemente pygments.rb corrigió un error que causaba que Jekyll fallara cuan
 
 ## Ejecutar Jekyll ##
 
-Dependiendo de su sitio, podrían surgir problemas debido a la incompatiblidad de codificación de caracteres. Para evitarlos, cambia la codificación de tu línea de comandos a UTF-8 antes de navegar a la carpeta fuente de tu sitio y ejecutar el comando Jekyll de tu elección.
+Dependiendo de su sitio, podrían surgir problemas debido a la incompatiblidad de codificación de caracteres. Para evitarlos, cambia la codificación de tu línea de comandos a UTF-8 antes de navegar a la carpeta fuente de tu sitio y ejecutar el commando Jekyll de tu elección.
 
     chcp 64001
     cd "C:\my-site"
@@ -162,7 +162,7 @@ Alternativamente, si es una opción, puedes agregar la siguiente configuración 
 
     encoding: UTF-8
 
-**Note:** Esto solo cambia la codificación para un sitio. Necesitarás usar continuamente el comando 'chcp 64001' para otros sitios ( a menos de que también agregues esta configuración).
+**Note:** Esto solo cambia la codificación para un sitio. Necesitarás usar continuamente el commando 'chcp 64001' para otros sitios ( a menos de que también agregues esta configuración).
 
 ## Dejemos que Jekyll Observe ##
 
@@ -175,6 +175,6 @@ Puedes:
         require 'rbconfig'
         gem 'wdm', '~> 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 
-* Instala la gema manualmente, si tu sitio no tiene un arhivo Gemfile. Ejecuta este comando:
+* Instala la gema manualmente, si tu sitio no tiene un arhivo Gemfile. Ejecuta este commando:
 
         gem install wdm
